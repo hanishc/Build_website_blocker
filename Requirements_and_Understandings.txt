@@ -1,0 +1,24 @@
+Application for blocking websites.
+---------------------------------
+
+Requirements
+------------
+
+* Create a python application to block a website .
+* Make the program customised for blocking the websites at particular times
+  ie you might block the websites during office time.
+* This process runs in the background.
+
+C:\Windows\System32\drivers\etc contains a file called host where we can
+add the ip address and website name.
+
+First segment of the code
+* It involves copying of ip address and the website name to the hosts file.
+  date datetime packages during working hours.
+Second segment of the code
+* It involves copying of ip address and the website name to
+  the hosts file during fun hours.
+* The next step involves running of the python application in background.
+* Scheduling is done with the help of task scheduler.
+* Task manager shows the current processes running in the PC.
+* System startup is done with actions,triggers setting in task scheduler.
